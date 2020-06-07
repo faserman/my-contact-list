@@ -1,0 +1,28 @@
+.login-page {
+  display: grid;
+  text-align: center;
+}
+
+.wrapper {
+  width: 500px;
+  height: 300px;
+  place-self: center;
+  border: black 1px solid;
+  border-radius: 10px;
+}
+
+.form-inputs {
+  display: grid;
+  padding: 0 25px;
+  grid-template-rows: repeat(2, max-content);
+  row-gap: 15px;
+}
+
+.form-button {
+  display: grid;
+  padding: 90px 45px;
+}
+
+.form-title {
+  font-size: 24px;
+}
